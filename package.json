@@ -1,0 +1,14 @@
+{
+  "name": "reading-time-block",
+  "version": "0.0.1",
+  "description": "A Gutenberg block to display reading time of a post or page.",
+  "repository": "https://github.com/marcuskober/reading-time-block.git",
+  "author": "Marcus Kober <marcus.kober@gmail.com>",
+  "license": "GPL-2.0",
+  "private": false,
+  "dependencies": {},
+  "devDependencies": {
+    "@wordpress/eslint-plugin": "^13.1.0",
+    "@wordpress/scripts": "^24.1.0"
+  }
+}
