@@ -1,6 +1,6 @@
 {
   "name": "reading-time-block",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A Gutenberg block to display reading time of a post or page.",
   "repository": "https://github.com/marcuskober/reading-time-block.git",
   "author": "Marcus Kober <marcus.kober@gmail.com>",
@@ -19,7 +19,7 @@
     "plugin-zip": "wp-scripts plugin-zip",
     "start": "wp-scripts start",
     "test:e2e": "wp-scripts test-e2e",
-    "test:unit": "wp-scripts test-unit-js"    
+    "test:unit": "wp-scripts test-unit-js"
   },
   "dependencies": {},
   "devDependencies": {
