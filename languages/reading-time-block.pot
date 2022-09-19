@@ -1,0 +1,60 @@
+# Copyright (C) 2022 Marcus Kober
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Reading time block 0.1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/reading-time-block\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-09-19T10:23:50+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: marcuskober-reading-time\n"
+
+#. Plugin Name of the plugin
+msgid "Reading time block"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://marcuskober.de"
+msgstr ""
+
+#. Description of the plugin
+msgid "A Gutenberg block to display reading time of a post or page."
+msgstr ""
+
+#. Author of the plugin
+msgid "Marcus Kober"
+msgstr ""
+
+#: src/edit.js:16
+msgid "Text template"
+msgstr ""
+
+#: src/edit.js:22
+msgid "Words per minute"
+msgstr ""
+
+#: block.json
+msgctxt "block title"
+msgid "Reading Time"
+msgstr ""
+
+#: block.json
+msgctxt "block description"
+msgid "A Gutenberg block to display reading time of a post or page."
+msgstr ""
+
+#: block.json
+msgctxt "block keyword"
+msgid "reading time"
+msgstr ""
+
+#: block.json
+msgctxt "block keyword"
+msgid "blog"
+msgstr ""

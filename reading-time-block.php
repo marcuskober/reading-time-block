@@ -15,6 +15,8 @@
 namespace Marcuskober\ReadingTimeBlock;
 
 add_action('init', function() {
+    load_plugin_textdomain('wpdocs_textdomain', false, dirname(plugin_basename(__FILE__)) . '/languages');
+
     register_block_type_from_metadata(__DIR__, [
         'render_callback' => function($attributes, $content, $block) {
             if (! isset($block->context['postId'])) {
