@@ -7,8 +7,8 @@
     "icon": "clock",
     "description": "A Gutenberg block to display reading time of a post or page.",
     "keywords": [ "reading time", "blog" ],
-    "version": "0.0.1",
-    "textdomain": "marcuskober/reading-time",
+    "version": "0.1.1",
+    "textdomain": "marcuskober-reading-time",
     "usesContext": ["postId"],
     "attributes": {
         "wordsPerMinute": {
