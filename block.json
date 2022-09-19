@@ -9,7 +9,19 @@
     "keywords": [ "reading time", "blog" ],
     "version": "0.0.1",
     "textdomain": "marcuskober/reading-time",
+    "usesContext": ["postId"],
     "attributes": {
+        "wordsPerMinute": {
+            "type": "integer",
+            "default": 250
+        },
+        "textTemplate": {
+            "type": "string",
+            "default": "Reading time: %d min."
+        },
+        "textAlign": {
+            "type": "string"
+        }
     },
     "supports": {
         "anchor": true,
@@ -20,6 +32,11 @@
         },
         "typography": {
             "fontSize": true,
+            "__experimentalFontFamily": true,
+            "__experimentalFontWeight": true,
+            "__experimentalFontStyle": true,
+            "__experimentalTextTransform": true,
+            "__experimentalLetterSpacing": true,
             "lineHeight": true
         }
     },
